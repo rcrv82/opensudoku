@@ -23,6 +23,9 @@ package org.moire.opensudoku.db;
 import android.provider.BaseColumns;
 
 public abstract class FolderColumns implements BaseColumns {
+
+	// esto es una modificacion mala
+
 	public static final String NAME = "name";
 	public static final String CREATED = "created";
 }
